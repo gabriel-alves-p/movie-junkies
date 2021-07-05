@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3A445D;
+    color: #FC7A57;
+}
+
+h1 {
+    font-family: Monoton, sans-serif;
+}
