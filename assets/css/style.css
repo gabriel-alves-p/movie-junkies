@@ -57,10 +57,39 @@ p, li, a {
 
 .intro {
     font-size: 20px;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-/*
+.intro p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* buttons */
+
+#games {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.game-button {
+    width: 19%;
+    height: 80px;
+    font-size: 20px;
+    background-color: #1F0812;
+    color: #FC7A57;
+    border: 2px solid #FC7A57;
+    cursor: pointer;
+}
+
+.game-button:hover {
+    background-color: #FC7A57;
+    color: #1F0812;
+    border: 2px solid #1F0812;
+}
+
+/* 
