@@ -54,6 +54,9 @@
     cursor: pointer;
 }
 
+.start-btn, .next-btn {
+    width: 40%;
+}
 .correct {
     background-color: green;
 }
