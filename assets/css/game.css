@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.hide {
+    display: none;
+}
+
 #game {
     width: 60%;
     padding: 60px 0;
@@ -40,6 +44,7 @@
     font-size: 30px;
     color: #1F0812;
     background-color: #FC7A57;
+    border: 1px solid #1F0812;
     border-radius: 50px;
 }
 
@@ -47,4 +52,12 @@
     transform: scale(1.1);
     transition: 0.5s;
     cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
 }
