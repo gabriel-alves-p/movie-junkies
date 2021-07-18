@@ -1,59 +1,51 @@
+/* game page stylings */
+
 body {
     color: #FCC8C2;
 }
 
-.choice-container {
+.answer-container {
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
     border-radius: 4px;
     background: linear-gradient(90deg, #FF87AB 0%, rgb(0, 102, 255) 100%);
     font-size: 3rem;
+    width: 100%;
     min-width: 80rem;
+    margin-bottom: 0.8rem;
 }
 
-.choice-container:hover {
+.answer-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
     transform: scale(1.02);
     transform: transform 100ms;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 244);
 }
 
-.choice-prefix {
-    padding: 2rem 2.5rem;
-    color: #FCC8C2;
-}
-
-.choice-text {
+.answer-text {
     padding: 2rem;
     width: 100%;
 }
 
-.correct {
-    background: linear-gradient(32deg, #9CEC5B 0%, #5FAD41 100%);
+.answer-prefix {
+    padding: 2rem 2.5rem;
+    color: #FCC8C2;
 }
 
-.incorrect {
-    background: linear-gradient(32deg, #A4161A 0%, #BA181B 100%);
-}
-
-/* Heads up Display */
-
-#hud {
+#game-header {
     display: flex;
     justify-content: space-between;
 }
 
-.hud-prefix {
+.progress-prefix {
     text-align: center;
     font-size: 2rem;
 }
 
-.hud-main-text {
+.header-text {
     text-align: center;
 }
 
-#progressBar {
+#progress-bar {
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid #9CEC5B;
@@ -62,8 +54,16 @@ body {
     overflow: hidden;
 }
 
-#progressBarFull {
+#progress-bar-full {
     height: 100%;
     background: #9CEC5B;
     width: 0%;
+}
+
+.correct {
+    background: #5FAD41;
+}
+
+.incorrect {
+    background: #A4161A;
 }
