@@ -12,84 +12,83 @@ let score = 0;
 
 let questions = [
     {
-        question: 'Which three films make up what is known as the Three Flavours Cornetto Trilogy?',
-        answers: [
-            { text: 'Shaun of the Dead, Hot Fuzz, The World’s End', correct: true},
-            { text: 'Shaun of the Dead, Love Actually, The World’s End', correct: false},
-            { text: 'Hot Fuzz, Snatch, The Gentlemen', correct: false},
-            { text: 'The World’s End, Hot Fuzz, Snatch', correct: false}
-        ]
-    }, {
-        question: 'What year was the first Toy Story film released in cinemas?',
-        answers: [
-            { text: '1999', correct: false},
-            { text: '1997', correct: false},
-            { text: '1995', correct: true},
-            { text: '2001', correct: false}
-        ]
-    }, {
-        question: 'What is the highest-grossing box office film of all time?',
-        answers: [
-            { text: 'Avatar', correct: false},
-            { text: 'Avengers: Infinity War', correct: false},
-            { text: 'Avengers: Endgame', correct: true},
-            { text: 'The Godfather', correct: false}
-        ]
-    }, {
-        question: 'What is the name of the second James Bond film?',
-        answers: [
-            { text: 'From Russia With Love', correct: true},
-            { text: 'No Time To Die', correct: false},
-            { text: 'Skyfall', correct: false},
-            { text: 'Casino Royale', correct: false}
-        ]
-    }, {
-        question: 'Which movie features an iconic dance scene between Uma Thurman and John Travolta?',
-        answers: [
-            { text: 'Kill Bill', correct: false},
-            { text: 'Grease', correct: false},
-            { text: 'Face Off', correct: false},
-            { text: 'Pulp Fiction', correct: true}
-        ]
-    }, {
-        question: 'What does Tom Hanks compare life to in Forest Gump?',
-        answers: [
-            { text: 'A box of donuts', correct: false},
-            { text: 'A box of chocolates', correct: true},
-            { text: 'A Christmas present', correct: false},
-            { text: 'A letter', correct: false}
-        ]
-    }, {
-        question: `"Frankly my dear, I don’t give a damn" is an iconic line from which classic film?`,
-        answers: [
-            { text: 'Titanic', correct: false},
-            { text: 'Citizen Kane', correct: false},
-            { text: 'Gone With The Wind', correct: true},
-            { text: 'Casablanca', correct: false}
-        ]
-    }, {
-        question: 'What is the first word spoken in Star Wars: The Empire Strikes Back?',
-        answers: [
-            { text: 'Echo', correct: true},
-            { text: 'Alpha', correct: false},
-            { text: 'Romeo', correct: false},
-            { text: 'Luke', correct: false}
-        ]
-    }, {
-        question: `Name the film which boasts the famous line: “You can’t handle the truth!”`,
-        answers: [
-            { text: 'The Shining', correct: false},
-            { text: '2001: A Space Odyssey', correct: false},
-            { text: 'The Departed', correct: false},
-            { text: 'A Few Good Men', correct: true}
-        ]
-    }, {
-        question: 'In which Austin Powers film does Beyoncé make her movie debut?',
-        answers: [
-            { text: 'International Man', correct: false},
-            { text: 'Goldmember', correct: true},
-            { text: 'The Spy Who Shagged Me', correct: false},
-            { text: 'International Man of Mystery', correct: false}
-        ]
+        question: "Which three films make up what is known as the Three Flavours Cornetto Trilogy?",
+        option1: "Shaun of the Dead, Hot Fuzz, The World’s End",
+        option2: "Shaun of the Dead, Love Actually, The World’s End",
+        option3: "Hot Fuzz, Snatch, The Gentlemen",
+        option4: "The World’s End, Hot Fuzz, Snatch",
+        correct: 1,
+    },
+    {
+        question: "What year was the first Toy Story film released in cinemas?",
+        option1: "2001",
+        option2: "1999",
+        option3: "1997",
+        option4: "1995",
+        correct: 4,
+    },
+    {
+        question: "What is the highest-grossing box office film of all time?",
+        option1: "Avatar",
+        option2: "Avengers: Endgame",
+        option3: "The Godfather",
+        option4: "Avengers: Infinity War",
+        correct: 2,
+    },
+    {
+        question: "What is the name of the second James Bond film?",
+        option1: "No Time To Die",
+        option2: "Casino Royale",
+        option3: "From Russia With Love",
+        option4: "Goldfinger",
+        correct: 3,
+    },
+    {
+        question: "Which movie features an iconic dance scene between Uma Thurman and John Travolta?",
+        option1: "Pulp Fiction",
+        option2: "Grease",
+        option3: "Kill Bill",
+        option4: "Face: Off",
+        correct: 1,
+    },
+    {
+        question: "What does Tom Hanks compare life to in Forest Gump?",
+        option1: "A box of donuts",
+        option2: "A Christmas present",
+        option3: "A letter",
+        option4: "A box of chocolates",
+        correct: 4,
+    },
+    {
+        question: '"Frankly my dear, I don’t give a damn" is an iconic line from which classic film?',
+        option1: "Citizen Kane",
+        option2: "Titanic",
+        option3: "Gone With The Wind",
+        option4: "Casablanca",
+        correct: 3,
+    },
+    {
+        question: "What is the first word spoken in Star Wars: The Empire Strikes Back?",
+        option1: "Echo",
+        option2: "Alpha",
+        option3: "Romeo",
+        option4: "Luke",
+        correct: 1,
+    },
+    {
+        question: 'Name the film which boasts the famous line: “You can’t handle the truth!”',
+        option1: "The Shining",
+        option2: "A Few Good Men",
+        option3: "The Departed",
+        option4: "2001: A Space Odyssey",
+        correct: 2,
+    },
+    {
+        question: "What is The Terminator's most famous line",
+        option1: "Buenas tardes, baby",
+        option2: "Hasta la vista, baby",
+        option3: "Baby, hasta la vista",
+        option4: "Goodbye, baby",
+        correct: 2,
     }
 ]
