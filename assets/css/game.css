@@ -45,21 +45,6 @@ body {
     text-align: center;
 }
 
-#progress-bar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid #9CEC5B;
-    margin-top: 2rem;
-    border-radius: 50px;
-    overflow: hidden;
-}
-
-#progress-bar-full {
-    height: 100%;
-    background: #9CEC5B;
-    width: 0%;
-}
-
 .correct {
     background: #5FAD41;
 }
