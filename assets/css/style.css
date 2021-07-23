@@ -28,6 +28,7 @@ h2 {
     margin-bottom: 4rem;
     font-size: 4.2rem;
     color: #FF87AB;
+    text-align: center;
 }
 
 .game-container {
@@ -97,4 +98,29 @@ footer {
     height: 200px;
     background: url('/assets/images/popcorn.png');
     z-index: -1;
+}
+
+/* score page */
+
+.end-img {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+}
+
+#high-score {
+    background-image: url('/assets/images/high-score.jpeg');
+    object-fit: contain;
+}
+
+#medium-score {
+    background-image: url('/assets/images/medium-score.jpeg');
+}
+
+#low-score {
+    background-image: url('/assets/images/low-score.jpeg');
 }
