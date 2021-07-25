@@ -128,7 +128,7 @@ function setNextQuestion() {
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
 
-    options.forEach(option => {
+    options.forEach(function(option) {
         const number = option.dataset['number'];
         option.innerText = currentQuestion['option' + number];
     })
@@ -143,8 +143,8 @@ function setNextQuestion() {
  * increments score
  * sets next question
  */
-options.forEach(option => {
-    option.addEventListener('click', e => {
+options.forEach(function(option) {
+    option.addEventListener('click', function(e) {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
@@ -159,7 +159,7 @@ options.forEach(option => {
 
         selectedOption.parentElement.classList.add(classToApply);
 
-        setTimeout(() => {
+        setTimeout(function() {
             selectedOption.parentElement.classList.remove(classToApply);
             setNextQuestion()
 
@@ -167,7 +167,7 @@ options.forEach(option => {
     })
 })
 
-incrementScore = num => {
+incrementScore = function(num) {
     score += num;
     scoreText.innerText = score;
 }

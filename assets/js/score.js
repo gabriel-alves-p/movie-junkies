@@ -11,9 +11,10 @@ finalScore.innerText = `You scored ${mostRecentScore} out of 10`;
 if (mostRecentScore <= 5) {
     lowScoreImg.classList.remove('hide');
     endMessage.innerText = `It's time to renew that Netflix subscription...`;
-} else if (mostRecentScore >= 6) {
+} else if (mostRecentScore >= 6 || mostRecentScore <= 7) {
     mediumScoreImg.classList.remove('hide');
     endMessage.innerText = `Hmmm we'll let that slide...`;
 } else if (mostRecentScore >= 8) {
     highScoreImg.classList.remove('hide');
+    endMessage.innerText = `Congratulations! You're officially a movie junkie!`
 }
