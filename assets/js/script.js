@@ -138,6 +138,11 @@ function setNextQuestion() {
     acceptingAnswers = true;
 }
 
+/**
+ * checks whether the selected answer is correct or incorrect
+ * increments score
+ * sets next question
+ */
 options.forEach(option => {
     option.addEventListener('click', e => {
         if(!acceptingAnswers) return;
