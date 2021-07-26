@@ -28,4 +28,17 @@
         font-size: 30px;
     }
 
+    /* score page */
+    #final-score {
+        font-size: 70px;
+    }
+
+    #end-message {
+        font-size: 50px;
+    }
+
+    .end-img {
+        background-size: auto;
+    }
+
 }
