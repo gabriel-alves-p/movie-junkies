@@ -1,0 +1,19 @@
+/* media queries for large tablets and small laptops */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 100px;
+    }
+
+    #how-to > p {
+        font-size: 50px;
+    }
+
+    #how-to > ol {
+        font-size: 40px;
+    }
+
+    .btn {
+        font-size: 50px;
+        width: 500px;
+    }
+}
