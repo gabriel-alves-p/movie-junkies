@@ -79,7 +79,7 @@ let questions = [
         correct: 1,
     },
     {
-        question: 'Name the film which boasts the famous line: “You can’t handle the truth!”',
+        question: 'Name the film which boasts the famous line: “You can’t handle the truth!”?',
         option1: "The Shining",
         option2: "A Few Good Men",
         option3: "The Departed",
@@ -87,7 +87,7 @@ let questions = [
         correct: 2,
     },
     {
-        question: "What is The Terminator's most famous line",
+        question: "What is The Terminator's most famous line?",
         option1: "Buenas tardes, baby",
         option2: "Hasta la vista, baby",
         option3: "Baby, hasta la vista",

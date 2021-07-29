@@ -38,7 +38,43 @@
     }
 
     .end-img {
-        background-size: auto;
+        background-size: contain;
+        margin: 20px 0;
     }
 
+}
+
+/* media queries for tablets */
+@media (max-width: 768px) {
+    
+    /* home page */
+    #how-to > ol {
+        width: 80%;
+    }
+
+    /* game page */
+    #game {
+        width: 90%;
+    }
+
+    .answer-container {
+        min-width: 50px;
+    }
+
+    #question, #score {
+        font-size: 45px;
+    }
+
+    #header-text, .progress-prefix, .answer-prefix, .answer-text {
+        font-size: 25px;
+    }
+
+    /* score page */
+    #final-score {
+        font-size: 60px;
+    }
+
+    .end-img {
+        background-size: contain;
+    }
 }

@@ -4,6 +4,10 @@ body {
     color: #FCC8C2;
 }
 
+#question {
+    margin: 15px 0;
+}
+
 .answer-container {
     display: flex;
     border-radius: 4px;
