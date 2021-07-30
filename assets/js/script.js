@@ -255,7 +255,7 @@ const questions_directors = [
 ]
 const questions_quotes = [
     {
-        question: "Just Keep Swimming",
+        question: `"Just Keep Swimming"`,
         option1: "Finding Nemo",
         option2: "Dory",
         option3: "Moana",
@@ -263,7 +263,7 @@ const questions_quotes = [
         correct: 1,
     },
     {
-        question: "My precious",
+        question: `"My precious"`,
         option1: "Lord of the Rings: The Fellowship Of The Ring",
         option2: "Lord of the Rings: The Two Towers",
         option3: "Lord of the Rings: The Return Of The King",
@@ -271,7 +271,7 @@ const questions_quotes = [
         correct: 2,
     },
     {
-        question: "You talking to me?",
+        question: `"You talking to me?"`,
         option1: "Baby Driver",
         option2: "Taxi Driver",
         option3: "Drive",
@@ -279,7 +279,7 @@ const questions_quotes = [
         correct: 2,
     },
     {
-        question: "I'm going to make him an offer he can't refuse",
+        question: `"I'm going to make him an offer he can't refuse"`,
         option1: "Goodfellas",
         option2: "The Sopranos",
         option3: "The Godfather",
@@ -287,7 +287,7 @@ const questions_quotes = [
         correct: 3,
     },
     {
-        question: "Here's Johnny!",
+        question: `"Here's Johnny!"`,
         option1: "The Shining",
         option2: "Die Hard",
         option3: "Sherlock Holmes",
@@ -295,7 +295,7 @@ const questions_quotes = [
         correct: 1,
     },
     {
-        question: "They may take our lives, but they'll never take our freedom!",
+        question: `"They may take our lives, but they'll never take our freedom!"`,
         option1: "Gladiator",
         option2: "Troy",
         option3: "300",
@@ -311,7 +311,7 @@ const questions_quotes = [
         correct: 3,
     },
     {
-        question: "That's why her hair is so big - it's full of secrets",
+        question: `"That's why her hair is so big - it's full of secrets"`,
         option1: "Mean Girls",
         option2: "Freaky Friday",
         option3: "Easy A",
@@ -327,7 +327,7 @@ const questions_quotes = [
         correct: 2,
     },
     {
-        question: "You're going to need a bigger boat",
+        question: `"You're going to need a bigger boat"`,
         option1: "Raiders Of The Lost Ark",
         option2: "Jaws",
         option3: "The Lost World: Jurassic Park",
