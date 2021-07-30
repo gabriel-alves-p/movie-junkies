@@ -113,14 +113,14 @@ footer {
 }
 
 #high-score {
-    background-image: url('/assets/images/high-score.jpeg');
+    background-image: url('../images/high-score.jpeg');
     object-fit: contain;
 }
 
 #medium-score {
-    background-image: url('/assets/images/medium-score.jpeg');
+    background-image: url('../images/medium-score.jpeg');
 }
 
 #low-score {
-    background-image: url('/assets/images/low-score.jpeg');
+    background-image: url('../images/low-score.jpeg');
 }

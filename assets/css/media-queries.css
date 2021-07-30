@@ -1,4 +1,4 @@
-/* media queries for large tablets and small laptops */
+/* media query for large tablets and small laptops */
 @media (max-width: 1024px) {
 
     /* home page */
@@ -48,8 +48,21 @@
 @media (max-width: 768px) {
     
     /* home page */
+    h1 {
+        font-size: 80px;
+    }
+
+    #how-to > p {
+        font-size: 40px;
+    }
+
     #how-to > ol {
+        font-size: 30px;
         width: 80%;
+    }
+
+    .btn {
+        font-size: 40px;
     }
 
     /* game page */
@@ -76,5 +89,25 @@
 
     .end-img {
         background-size: contain;
+    }
+}
+
+@media (max-width: 630px) {
+
+    /* home page */
+    h1 {
+        font-size: 80px;
+    }
+
+    #how-to > p {
+        font-size: 40px;
+    }
+
+    #how-to > ol {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 40px;
     }
 }
