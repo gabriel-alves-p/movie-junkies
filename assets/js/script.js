@@ -221,7 +221,7 @@ const questions_oscars = [
         correct: 4,
     },
     {
-        question: "Who caused Oscar outrage by sending a Californian Apache called Sacheen Littlefeather to decline the Best Actor he’d just won?",
+        question: "Who caused outrage by sending an Apache called Sacheen Littlefeather to decline the Best Actor he’d just won?",
         option1: "Jack Nicholson",
         option2: "Michael Caine",
         option3: "Marlon Brando",
@@ -237,7 +237,7 @@ const questions_oscars = [
         correct: 1,
     },
     {
-        question: "2021’s Best Actor nominee, Anthony Hopkins, previously won an Oscar for playing which famous villain?",
+        question: "Anthony Hopkins previously won an Oscar for playing which famous villain?",
         option1: "Father Lucas",
         option2: "Hannibal Lecter",
         option3: "Hans Gruber",
