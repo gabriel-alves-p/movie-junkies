@@ -161,7 +161,7 @@
 }
 
 /* large mobile devices */
-@media (max-width: 400px) {
+@media (max-width: 414px) {
     
     /* home page */
     h1 {
@@ -183,7 +183,7 @@
 
     /* score page */
     #final-score {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #end-message {
@@ -193,7 +193,7 @@
 
     .end-img {
         background-size: cover;
-        transform: scale(0.8);
+        transform: scale(0.7);
         margin: 0;
     }
 }
