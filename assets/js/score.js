@@ -16,5 +16,5 @@ if (mostRecentScore <= 5) {
     endMessage.innerText = `Hmmm we'll let that slide...`;
 } else if (mostRecentScore >= 8) {
     highScoreImg.classList.remove('hide');
-    endMessage.innerText = `Congratulations! You're officially a movie junkie!`
+    endMessage.innerText = `Congratulations! You're officially a movie junkie!`;
 }
