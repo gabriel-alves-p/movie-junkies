@@ -88,7 +88,8 @@ const questions_general = [
         option4: "Goodbye, baby",
         correct: 2,
     }
-]
+];
+
 const questions_trivia = [
     {
         question: "In the Titanic, who was the true author of the famous topless sketch of Kate Winslet?",
@@ -170,7 +171,8 @@ const questions_trivia = [
         option4: "A squeaky door",
         correct: 2,
     }
-]
+];
+
 const questions_oscars = [
     {
         question: "Which film received 12 nominations at the February 2016 Academy Awards Ceremony?",
@@ -252,7 +254,8 @@ const questions_oscars = [
         option4: "Mother",
         correct: 2,
     }
-]
+];
+
 const questions_quotes = [
     {
         question: `"Just Keep Swimming"`,
@@ -334,7 +337,7 @@ const questions_quotes = [
         option4: "Deep Blue Sea",
         correct: 2,
     }
-]
+];
 
 //let variables
 let availableQuestions = [];
@@ -343,6 +346,10 @@ let questionCounter = 0;
 let acceptingAnswers = true;
 let score = 0;
 let questions = [];
+let incrementScore = function(num) {
+    score += num;
+    scoreText.innerText = score;
+};
 
 /**
  * select game type
@@ -368,6 +375,7 @@ function runGame(type) {
     game.classList.remove('hide');
     rules.classList.add('hide');
 }
+
 /**
  * sets next question
  * increases question counter by 1
@@ -388,10 +396,12 @@ function setNextQuestion() {
     options.forEach(function(option) {
         const number = option.dataset['number'];
         option.innerText = currentQuestion['option' + number];
-    })
+    });
+  
     availableQuestions.splice(questionsIndex, 1);
     acceptingAnswers = true;
 }
+
 /**
  * checks whether the selected answer is correct or incorrect
  * increments score
@@ -412,11 +422,7 @@ options.forEach(function(option) {
         
         setTimeout(function() {
             selectedOption.parentElement.classList.remove(classToApply);
-            setNextQuestion()
-        }, 1000)
-    })
-})
-incrementScore = function(num) {
-    score += num;
-    scoreText.innerText = score;
-}
+            setNextQuestion();
+        }, 1000);
+    });
+});
