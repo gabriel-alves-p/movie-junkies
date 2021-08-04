@@ -155,3 +155,41 @@
         background-size: contain;
     }
 }
+
+/* large mobile devices */
+@media (max-width: 378px) {
+    
+    /* home page */
+    h1 {
+        font-size: 50px;
+    }
+
+    #how-to > p {
+        font-size: 25px;
+    }
+
+    #how-to > ol {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 25px;
+        width: 90%;
+    }
+
+    /* score page */
+    #final-score {
+        font-size: 30px;
+    }
+
+    #end-message {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .end-img {
+        background-size: cover;
+        transform: scale(0.8);
+        margin: 0;
+    }
+}
