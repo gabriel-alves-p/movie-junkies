@@ -116,7 +116,7 @@
     
     /* home page */
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     #how-to > p {
@@ -130,6 +130,10 @@
     .btn {
         font-size: 30px;
         width: 85%;
+    }
+
+    footer {
+        margin-bottom: -200px;
     }
 
     /* game page */
@@ -161,7 +165,7 @@
     
     /* home page */
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #how-to > p {
