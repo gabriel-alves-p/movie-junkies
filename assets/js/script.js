@@ -426,3 +426,7 @@ options.forEach(function(option) {
         }, 1000);
     });
 });
+
+function refreshPage(){
+    window.location.reload();
+}
