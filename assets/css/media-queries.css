@@ -116,7 +116,7 @@
     
     /* home page */
     h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     #how-to > p {
@@ -161,7 +161,7 @@
 }
 
 /* large mobile devices */
-@media (max-width: 378px) {
+@media (max-width: 400px) {
     
     /* home page */
     h1 {
