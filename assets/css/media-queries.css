@@ -111,3 +111,47 @@
         font-size: 40px;
     }
 }
+
+@media (max-width: 504px) {
+    
+    /* home page */
+    h1 {
+        font-size: 60px;
+    }
+
+    #how-to > p {
+        font-size: 30px;
+    }
+
+    #how-to > ol {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 30px;
+        width: 85%;
+    }
+
+    /* game page */
+
+    #question, #score {
+        font-size: 30px;
+    }
+
+    #header-text, .progress-prefix, .answer-prefix, .answer-text {
+        font-size: 20px;
+    }
+
+    /* score page */
+    #final-score {
+        font-size: 40px;
+    }
+
+    #end-message {
+        font-size: 30px;
+    }
+
+    .end-img {
+        background-size: contain;
+    }
+}
