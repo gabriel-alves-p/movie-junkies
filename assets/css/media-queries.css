@@ -47,22 +47,58 @@
 /* media queries for tablets */
 @media (max-width: 768px) {
     
+    .column {
+        display: block;
+        text-align: left;
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+
+    #title {
+    margin-bottom: 0;
+    color: #FF87AB;
+    text-align: center;
+    background: antiquewhite;
+    margin: 0 -20px;
+    font-size: 45px;
+    }
+
+    .container {
+    text-align: center;
+    }
+
+    #how-to {
+    margin: 1rem 0;
+    text-align: center;
+    }
+
     /* home page */
-    h1 {
-        font-size: 80px;
+    #how-to > ol {
+    width: 80%;
+    margin: 5px auto;
+    font-size: 24px;
+    text-align: left;
+    }
+
+    #how-to > ol li {
+    width: 100%;
+    padding: 5px;
     }
 
     #how-to > p {
-        font-size: 40px;
-    }
-
-    #how-to > ol {
-        font-size: 30px;
-        width: 80%;
+    font-size: 30px;
     }
 
     .btn {
-        font-size: 40px;
+    width: calc(100% - 20px);
+    DISPLAY: block;
+    margin: 4px;
+    font-size: 24px;
+    padding: 1.5rem 0;
+    }
+
+    footer {
+        margin-bottom: -200px;
     }
 
     /* game page */
@@ -85,6 +121,7 @@
     /* score page */
     #final-score {
         font-size: 60px;
+        text-align: center;
     }
 
     .end-img {
@@ -95,7 +132,7 @@
 @media (max-width: 630px) {
 
     /* home page */
-    h1 {
+    #title {
         font-size: 80px;
     }
 
@@ -115,7 +152,7 @@
 @media (max-width: 504px) {
     
     /* home page */
-    h1 {
+    #title {
         font-size: 45px;
     }
 
@@ -129,11 +166,6 @@
 
     .btn {
         font-size: 30px;
-        width: 85%;
-    }
-
-    footer {
-        margin-bottom: -200px;
     }
 
     /* game page */
@@ -164,7 +196,7 @@
 @media (max-width: 414px) {
     
     /* home page */
-    h1 {
+    #title {
         font-size: 40px;
     }
 
@@ -178,22 +210,21 @@
 
     .btn {
         font-size: 25px;
-        width: 90%;
     }
 
     /* score page */
     #final-score {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #end-message {
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 20px;
     }
 
     .end-img {
         background-size: cover;
-        transform: scale(0.7);
+        transform: scale(0.8);
         margin: 0;
     }
 }
