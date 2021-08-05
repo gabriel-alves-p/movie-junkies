@@ -19,6 +19,16 @@
         width: 500px;
     }
 
+    footer {
+        margin-bottom: -200px;
+    }
+
+    .credit {
+        font-size: 18px;
+        bottom: -180px;
+        margin-left: -131px;
+    }
+
     /* game page */
     #question, #score {
         font-size: 60px;
@@ -97,10 +107,6 @@
     padding: 1.5rem 0;
     }
 
-    footer {
-        margin-bottom: -200px;
-    }
-
     /* game page */
     #game {
         width: 90%;
@@ -128,6 +134,10 @@
         background-size: contain;
         width: auto;
         transform: scale(0.8);
+    }
+
+    .play-again-btn {
+        width: auto;
     }
 }
 
