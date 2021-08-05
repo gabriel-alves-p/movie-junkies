@@ -126,6 +126,8 @@
 
     .end-img {
         background-size: contain;
+        width: auto;
+        transform: scale(0.8);
     }
 }
 
