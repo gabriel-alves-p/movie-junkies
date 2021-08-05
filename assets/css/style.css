@@ -142,12 +142,6 @@ body {
     justify-content: space-between;
 }
 
-#home {
-    font-size: 15px;
-    width: 90%;
-    padding: 10px 0;
-}
-
 .progress-prefix {
     text-align: center;
     font-size: 2rem;
@@ -163,6 +157,14 @@ body {
 
 .incorrect {
     background: #A4161A;
+}
+
+#home-btn {
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0;
 }
 
 /* score page */
