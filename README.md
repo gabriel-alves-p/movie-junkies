@@ -50,10 +50,15 @@ The colors of the website were chosen to resemble an arcade's carpet. An iconic 
 
 ![Coolors palette](documentation/coolors-screenshot.jpeg)
 
+Colors were chosen with the help of [Coolors](https://coolors.co/).
+
 ##### Typography
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+Font styles and sizes were chosen to match the website's color palette and 1980's arcade theme.
+
+![Font style](documentation/font-style-screenshot.jpeg)
+
+Font style was chosen with the helo of [Google Fonts](https://fonts.google.com/).
 
 ##### Images
 
