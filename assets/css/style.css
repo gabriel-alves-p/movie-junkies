@@ -199,6 +199,10 @@ body {
     background-size: contain;
 }
 
+#end-message {
+    margin-bottom: 0;
+}
+
 #high-score {
     background-image: url('../images/high-score.jpeg');
     object-fit: contain;
