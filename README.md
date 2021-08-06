@@ -58,22 +58,25 @@ Font styles and sizes were chosen to match the website's color palette and 1980'
 
 ![Font style](documentation/font-style-screenshot.jpeg)
 
-Font style was chosen with the helo of [Google Fonts](https://fonts.google.com/).
+Font style is called "Righteous" and it was chosen with the help of [Google Fonts](https://fonts.google.com/).
 
 ##### Images
 
-Explain why you used certain icons and images on your site
+The images used on the website were chosen solely for entertainment purpose and to match the arcade feel of the website.
+
+![Popcorn footer](documentation/popcorn-screenshot.jpeg)
 
 ##### Animations and Transitions
 
-- discuss any special animations or transitions you've included 
-- special hover state effects
+Special hovering effects were applied to all buttons on the website, a mixture of scaling and box-shadowing were used to make the buttons look like the neon lights at an arcade.
+
+![Buttons](documentation/buttons-screenshot.jpeg)
+
+![Credit](documentation/credit-screenshot.jpeg)
 
 ### Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
 
-Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product.
 
 ### Features
 
