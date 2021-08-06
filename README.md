@@ -1,6 +1,6 @@
 # Movie Junkies
 
-- ![Website's responsiveness](documentation/responsive-screenshot.jpeg)
+![Website's responsiveness](documentation/responsive-screenshot.jpeg)
 
 ## Author
 
@@ -8,7 +8,7 @@ Gabriel Alves
 
 ## Project Overview
 
-- This website was developed to break the mold of the movie nights with your friends and family, when a little competition can't hurt. It was created to be fun, intuitive, easy to play and, most importantly, to decide who's the 'know-it-all' in the room. The categories range in difficulty and are suitable for families of all sizes and ages.
+This website was developed to break the mold of the movie nights with your friends and family, when a little competition can't hurt. It was created to be fun, intuitive, easy to play and, most importantly, to decide who's the 'know-it-all' in the room. The categories range in difficulty and are suitable for families of all sizes and ages.
 
 
 - You can view my deployed website [here](https://gabriel-alves-p.github.io/movie-junkies/)
@@ -27,13 +27,12 @@ The website was largely designed to be appealing to young teenagers and adults i
 The website hopes to provide an extra layer of fun and entertainment to movie nights, either as an a pre-movie ice breaker or even afterwards to see who knows the most.
 
 ### Design Choices
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
 
 #### Strategy Plane
 
 - The basics of the website are that it is, at its core, a fun, easy-to-play and intuitive quiz for teenagers and adults.
 
-#### Scope & Structure Planes
+#### Scope / Structure / Skeleton Planes
 
 - The website would contain a very minimalistic landing page, with a simple logo at the top, instructions on how to play the quiz to follow, and finally the four categories of questions for the user to choose from.
 
@@ -41,27 +40,26 @@ Your site is most likely geared to a certain audience, and your design choices s
 
 - The last page (the score page) would simply have a your score, an fun image to match your score (whether a low score, a medium score or a hig score), a message to match your performance and a button to 'return home'.
 
-Each of the steps taken in the scope plane planning were done so as to only ever give a maximum of 4 clickable options on the screen for the user. It was done so that the website can only ever be intuitive and easy to navigate.
+- Each of the steps taken in the skeleton plane planning were done so as to only ever give a maximum of 4 clickable options on the screen for the user. It was done so that the website can only ever be intuitive and easy to navigate.
 
-#### S
+#### Surface Plane
 
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
+##### Colors
 
-#### Colors
+The colors of the website were chosen to resemble an arcade's carpet. An iconic colorway of the 1980's. Although not all users will understand the theme or get the same feeling from the colors, they are still easy on the eyes and look the part on the quiz.
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like coolors.co
+![Coolors palette](documentation/coolors-screenshot.jpeg)
 
-#### Typography
+##### Typography
 
 - discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
 - include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
 
-#### Images
+##### Images
 
 Explain why you used certain icons and images on your site
 
-#### Animations and Transitions
+##### Animations and Transitions
 
 - discuss any special animations or transitions you've included 
 - special hover state effects
