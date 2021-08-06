@@ -1,17 +1,17 @@
 # Movie Junkies
 
 - ![Website's responsiveness](documentation/responsive-screenshot.jpeg)
-- You can view my deployed website [here](https://gabriel-alves-p.github.io/movie-junkies/)
 
 ## Author
 
 Gabriel Alves
 
 ## Project Overview
-- Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
-- One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
-- Include a link to your deployed website
+
+- This website was developed to break the mold of the movie nights with your friends and family, when a little competition can't hurt. It was created to be fun, intuitive, easy to play and, most importantly, to decide who's the 'know-it-all' in the room. The categories range in difficulty and are suitable for families of all sizes and ages.
+
+
+- You can view my deployed website [here](https://gabriel-alves-p.github.io/movie-junkies/)
 
 ## Table of Contents
 Generate after readme is complete for UX and below
@@ -19,7 +19,10 @@ Generate after readme is complete for UX and below
 ## UX
 
 ### Project Goals
-Use this section to provide insight into your UX process, focusing on who this website is for, calling out demographics, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+At the early stages of planning for the website, research was made regarding age gaps between people who partake in quizzes in the UK. It was found that it was largely above 18 years of age for UK, so after refining my research to exclude pub quizzes, the research came out with an average that ranged between 14 and 45 years old.
+
+The website was largely designed to be appealing to young teenagers and adults in accordance with the research made. The questions and answers include both older films and new releases to match the wide range of ages which will be playing the quiz.
 
 ### Design Choices
 Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
