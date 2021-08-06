@@ -24,8 +24,26 @@ At the early stages of planning for the website, research was made regarding age
 
 The website was largely designed to be appealing to young teenagers and adults in accordance with the research made. The questions and answers include both older films and new releases to match the wide range of ages which will be playing the quiz.
 
+The website hopes to provide an extra layer of fun and entertainment to movie nights, either as an a pre-movie ice breaker or even afterwards to see who knows the most.
+
 ### Design Choices
 Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
+
+#### Strategy Plane
+
+- The basics of the website are that it is, at its core, a fun, easy-to-play and intuitive quiz for teenagers and adults.
+
+#### Scope & Structure Planes
+
+- The website would contain a very minimalistic landing page, with a simple logo at the top, instructions on how to play the quiz to follow, and finally the four categories of questions for the user to choose from.
+
+- The second page (the quiz running page) would follow on to the same minimalistic idea of the first page, it would contain a question number, a score tracker, the quiz question, the four answer options for the user to click on and a 'return home' button.
+
+- The last page (the score page) would simply have a your score, an fun image to match your score (whether a low score, a medium score or a hig score), a message to match your performance and a button to 'return home'.
+
+Each of the steps taken in the scope plane planning were done so as to only ever give a maximum of 4 clickable options on the screen for the user. It was done so that the website can only ever be intuitive and easy to navigate.
+
+#### S
 
 You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
 
