@@ -76,7 +76,7 @@ Special hovering effects were applied to all buttons on the website, a mixture o
 
 ### Wireframes
 
-
+Wireframes for this project can be found [here](https://drive.google.com/file/d/1J1Q6ZbRyVI-HSJThHyAYONjWD175Wdu1/view?usp=sharing)
 
 ### Features
 
