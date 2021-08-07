@@ -161,7 +161,7 @@ body {
 .answer-container:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transform: transform 100ms;
+    transition-duration: 100ms;
     box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 244);
 }
 

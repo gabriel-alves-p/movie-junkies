@@ -126,15 +126,17 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ### Validation Testing
-You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
-- [HTML Validator](https://validator.w3.org/)
+- All CSS files on this project were run through a [CSS Validator](https://jigsaw.w3.org/css-validator/) and passed.
+![CSS testing](documentation/css-testing.jpeg)
+
+- All HTML files on this project were run through a [HTML Validator](https://validator.w3.org/) and passed.
+![HTML Testing](documentation/html-testing.jpeg)
+
+- All JavaScript files on this project were run through a [JavaScript Validator](https://jshint.com/) and passed.
+![JavaScript Testing](documentation/jshint1.jpeg)
+![JavaScript Testing](documentation/jshint2.jpeg)
 
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
