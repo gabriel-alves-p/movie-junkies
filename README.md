@@ -118,10 +118,11 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 
 #### Future Features
 
-Use this section to discuss plans for additional features to be implemented in the future:
+- In the future I would like to implement two new categories for the games. These would be "Picture" and "Audio" based categories, which would use images and audios rather than text for the questions.
 
-If you end up not developing some features you hoped to implement, you can include those in this section.
+- Another feature I would like to implement to the website in the future are sound effects that are triggered when the user clicks on a correct or an incorrect answer.
 
+- Lastly, I would like to implement a high-score board to the website, which users could then upload their best results up to.
 
 ## Testing
 
