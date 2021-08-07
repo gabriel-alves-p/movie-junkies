@@ -11,9 +11,11 @@
     <title>Movie Junkies</title>
 </head>
 <body>
+    <!-- Rules -->
     <div class="game-container container rules">
         <div id="home" class="column centralize-flex">
             <h1 id="title">Movie Junkies</h1>
+            <!-- How To Play -->
             <div id="how-to" class="column centralize-flex">
                 <p>Here's How To Play!</p>
                 <ol>
@@ -23,15 +25,18 @@
                     <li>Get your score at the end!</li>
                 </ol>
             </div>
+            <!-- Categories Buttons -->
             <a onclick="runGame('general');" class="btn">General Knowledge</a>
             <a onclick="runGame('trivia');" class="btn">Trivia</a>
             <a onclick="runGame('quotes');" class="btn">Quotes</a>
             <a onclick="runGame('oscars');" class="btn">Oscars</a>
         </div>
     </div>
+    <!-- Game Container -->
     <div class="game-container gameboard hide">
         <div id="game" class="column centralize">
             <div id="game-header">
+                <!-- Game Header -->
                 <div class="item-header">
                     <p id="header-text" class="progress-prefix">
                         Question
@@ -46,7 +51,9 @@
                     </h1>
                 </div>
             </div>
+            <!-- Questions -->
             <h1 id="question">What is the answer to this question?</h1>
+            <!-- Answers -->
             <div class="answer-container" id="answer-1">
                 <p class="answer-prefix">A</p>
                 <p class="answer-text" data-number="1">Choice1</p>
@@ -62,10 +69,12 @@
              <div class="answer-container" id="answer-4">
                 <p class="answer-prefix">D</p>
                 <p class="answer-text" data-number="4">Choice4</p>
-             </div>             
+             </div>
+             <!-- Home Button -->
             <button id="home-btn" class="btn" onclick="refreshPage()">Return Home</button>
         </div>
     </div>
+    <!-- Footer -->
     <h3 class="credit">Developed by Gabriel Alves<a href="https://github.com/gabriel-alves-p" target="_blank"> <i class="fab fa-github"></i></a></h3>
     <footer>
     </footer>
