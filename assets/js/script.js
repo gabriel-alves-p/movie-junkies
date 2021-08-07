@@ -58,7 +58,7 @@ function setNextQuestion() {
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
     options.forEach(function(option) {
-        const number = option.dataset['number'];
+        const number = option.dataset.number;
         option.innerText = currentQuestion['option' + number];
     });
   
@@ -76,7 +76,7 @@ options.forEach(function(option) {
         if(!acceptingAnswers) return;
         acceptingAnswers = false;
         const selectedOption = e.target;
-        const selectedAnswer = selectedOption.dataset['number'];
+        const selectedAnswer = selectedOption.dataset.number;
         let classToApply = selectedAnswer == currentQuestion.correct ? 'correct' : 'incorrect';
         if (classToApply === 'correct') {
             incrementScore(SCORE_POINTS);
