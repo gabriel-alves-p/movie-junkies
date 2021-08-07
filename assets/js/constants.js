@@ -7,6 +7,13 @@ const SCORE_POINTS = 1;
 const MAX_QUESTIONS = 10;
 const game = document.querySelector('.gameboard');
 const rules = document.querySelector('.rules');
+const final = document.querySelector('.final')
+const finalScore = document.getElementById('final-score');
+const mostRecentScore = JSON.parse(localStorage.getItem('mostRecentScore'));
+const highScoreImg = document.getElementById('high-score');
+const mediumScoreImg = document.getElementById('medium-score');
+const lowScoreImg = document.getElementById('low-score');
+const endMessage = document.getElementById('end-message');
 const questions_general = [
     {
         question: "Which three films make up what is known as the Three Flavours Cornetto Trilogy?",

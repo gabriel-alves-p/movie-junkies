@@ -11,6 +11,15 @@
     <title>Movie Junkies</title>
 </head>
 <body>
+    <!-- Music Controls -->
+    <div class="container volume-controller">
+        <a class="circle" onClick="musicControl();" id="music-on">
+            <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
+        </a>
+        <a class="circle hide" onClick="musicControl();" id="music-off">
+            <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
+        </a>
+ </div>
     <!-- Rules -->
     <div class="game-container container rules">
         <div id="home" class="column centralize-flex">
@@ -74,10 +83,25 @@
             <button id="home-btn" class="btn" onclick="refreshPage()">Return Home</button>
         </div>
     </div>
+    <!-- Score Container-->
+    <div class="game-container final hide">
+        <div id="end" class="column centralize-flex">
+            <h1 id="final-score">You scored 0 out of 10!</h1>
+            <!-- Score Images -->
+            <div class="end-img hide" id="high-score"></div>
+            <div class="end-img hide" id="medium-score"></div>
+            <div class="end-img hide" id="low-score"></div>
+            <h2 id="end-message">Congratulations! You're officially a movie junkie!</h2>
+            <a href="index.html" class="btn play-again-btn">Play Again</a>
+        </div>
+    </div>
     <!-- Footer -->
     <h3 class="credit">Developed by Gabriel Alves<a href="https://github.com/gabriel-alves-p" target="_blank"> <i class="fab fa-github"></i></a></h3>
     <footer>
     </footer>
+    <!-- AUDIO FILES -->
+    <!-- downloaded Free Bold Statement Music from playonloop.com https://www.playonloop.com/2018-music-loops/bold-statement/ -->
+    <audio id="bgMusic" src="assets/audio/background.wav"></audio>
     <script src="assets/js/constants.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/9f36b999fb.js" crossorigin="anonymous"></script>

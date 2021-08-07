@@ -45,7 +45,8 @@ function runGame(type) {
 function setNextQuestion() {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('score.html');
+        game.classList.add('hide');
+        final.classList.remove('hide');
     }
     questionCounter++;
     headerText.innerText = `
@@ -102,4 +103,46 @@ options.forEach(function(option) {
 
 function refreshPage(){
     window.location.reload();
+}
+
+/**
+ * shows user's score
+ * shows respective image
+ * shows replay button
+ */
+finalScore.innerText = `You scored ${mostRecentScore} out of 10`;
+
+if (mostRecentScore <= 5) {
+    lowScoreImg.classList.remove('hide');
+    endMessage.innerText = `It's time to renew that Netflix subscription...`;
+} else if (mostRecentScore <= 7) {
+    mediumScoreImg.classList.remove('hide');
+    endMessage.innerText = `Hmmm we'll let that slide...`;
+} else if (mostRecentScore >= 8) {
+    highScoreImg.classList.remove('hide');
+    endMessage.innerText = `Congratulations! You're officially a movie junkie!`;
+}
+
+/**
+* Music file
+*/
+let bgmusic = document.getElementById('bgMusic');
+bgmusic.volume = 0.5;
+bgmusic.loop = true;
+let soundOn = false;
+
+/**
+* Toggle on and off background music
+*/
+function musicControl(){
+   soundOn =!soundOn;
+   if(soundOn){
+       bgmusic.play();
+       document.getElementById("music-on").classList.add('hide');
+       document.getElementById("music-off").classList.remove('hide');
+   }else {
+       bgmusic.pause();
+       document.getElementById("music-off").classList.add('hide');
+       document.getElementById("music-on").classList.remove('hide');
+   }
 }
