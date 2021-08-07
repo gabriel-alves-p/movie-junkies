@@ -115,6 +115,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 200px;
+    /* image taken from https://www.freepnglogos.com/pics/popcorn */
     background: url('../images/popcorn.png');
     z-index: -1;
 }
@@ -202,15 +203,18 @@ body {
     margin-bottom: 0;
 }
 
+/* image taken from https://uproxx.com/movies/quentin-tarantino-pulp-fiction-in-space/ */
 #high-score {
     background-image: url('../images/high-score.jpeg');
     object-fit: contain;
 }
 
+/* image taken from https://time.com/4153143/quentin-tarantino-hateful-eight-theater/ */
 #medium-score {
     background-image: url('../images/medium-score.jpeg');
 }
 
+/* image taken from https://www.vulture.com/2019/11/martin-scorsese-simply-couldnt-make-time-to-direct-joker.html */
 #low-score {
     background-image: url('../images/low-score.jpeg');
 }
