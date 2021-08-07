@@ -1,4 +1,6 @@
-//let variables
+/**
+ * variables to keep track of game progress
+ */
 let availableQuestions = [];
 let currentQuestion = {};
 let questionCounter = 0;

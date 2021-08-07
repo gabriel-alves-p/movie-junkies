@@ -96,8 +96,7 @@ h2 {
     color: black;
     position: absolute;
     bottom: 20px;
-    left: 50%;
-    margin-left: -165px;
+    left: 2%;
     z-index: 2;
 }
 
