@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /**
  * variables to keep track of game progress
  */

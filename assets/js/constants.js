@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //const variables
 const question = document.getElementById('question');
 const scoreText = document.getElementById('score');
