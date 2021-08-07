@@ -78,7 +78,7 @@ options.forEach(function(option) {
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset.number;
         let classToApply = selectedAnswer == currentQuestion.correct ? 'correct' : 'incorrect';
-        if (classToApply === 'correct') {
+        if (classToApply == 'correct') {
             incrementScore(SCORE_POINTS);
         }
 

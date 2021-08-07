@@ -66,6 +66,12 @@ The images used on the website were chosen solely for entertainment purpose and 
 
 ![Popcorn footer](documentation/popcorn-screenshot.jpeg)
 
+![High score image](assets/images/high-score.jpeg)
+
+![Medium score image](assets/images/medium-score.jpeg)
+
+![Low score image](assets/images/low-score.jpeg)
+
 ##### Animations and Transitions
 
 Special hovering effects were applied to all buttons on the website, a mixture of scaling and box-shadowing were used to make the buttons look like the neon lights at an arcade.
@@ -80,15 +86,35 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 
 ### Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
-
 #### Implemented Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- On the landing page I have implemented a background audio that can be switched on and off by the user upon clickin on it.
+![Audio button](documentation/audio.jpeg)
 
-It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
 
-Don't forget your 404 error page.
+- Following the audio button, we have the website's title and the game rules, so the user is aware of how to play the game before selecting to do so.
+![Rules](documentation/rules.jpeg)
+
+
+- The website then showcases the four different game options for the user to choose from and highlights them with a shadow-box.
+![Game categories](documentation/games.jpeg)
+
+
+- On the game-running pages I have added a header to the game container, followed by the question and the four options for answers (answers are highlighted in either green for correct or red for incorrect).
+![Game](documentation/game.jpeg)
+
+
+- All pages contain a "Return Home" button so the user can always start again from the beginning.
+![Return button](documentation/return.jpeg)
+
+
+- Score page is kept minimalistic with two lines of text informing the user of their score, an image feature that matches the user's score and a button to return to the home page.
+![Score page](documentation/score.jpeg)
+
+
+- The website has a 404 error page implemented that redirects the user directly back to our home page.
+![404 error page](documentation/404.jpeg)
+
 
 #### Future Features
 
