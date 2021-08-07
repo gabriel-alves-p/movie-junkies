@@ -78,6 +78,18 @@ options.forEach(function(option) {
         }
 
         selectedOption.parentElement.classList.add(classToApply);
+        if (classToApply !== 'correct') {
+            /* wrong Answer */
+            /* dynamic query selector found via help from stack oveflow: https://stackoverflow.com/questions/50624800/how-to-dynamically-set-query-selector-attributes */
+            let correctSelector = "#answer-" + currentQuestion.correct;
+            let correctDiv = document.querySelector(correctSelector);
+            correctDiv.classList.add('correct');
+            setTimeout(function () {
+                correctDiv.classList.remove('correct');
+            }, 1000);
+         
+         }
+         
         
         setTimeout(function() {
             selectedOption.parentElement.classList.remove(classToApply);
