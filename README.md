@@ -191,20 +191,41 @@ You can view my defect tracking document [here](https://docs.google.com/spreadsh
 
 ![Deployment 3](documentation/deployment3.jpeg)
 
-## Credits
-
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
+## Credits 
 
 ### Content
 
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
+Quiz questions and answers were taken from the following websites.
+- https://parade.com/977752/samuelmurrian/movie-trivia/
+- https://metro.co.uk/2021/04/25/oscars-2021-quiz-questions-and-answers-14469158/
+- http://www.freepubquiz.co.uk/oscars-quiz.html
+- https://www.boredpanda.com/interesting-movie-facts/?utm_source=google&utm_medium=organic&utm_campaign=organic
+- https://bestlifeonline.com/movie-facts/
+- https://www.nme.com/blogs/the-movies-blog/100-random-movie-facts-you-really-need-to-know-763942
 
 ### Media
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
+Images and audios were taken from the following websites.
+
+- https://uproxx.com/movies/quentin-tarantino-pulp-fiction-in-space/
+- https://time.com/4153143/quentin-tarantino-hateful-eight-theater/
+- https://www.vulture.com/2019/11/martin-scorsese-simply-couldnt-make-time-to-direct-joker.html
+- https://www.playonloop.com/royalty-free-music/action-and-trailer/
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
+StackOverflow Help
 
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
+- https://stackoverflow.com/questions/50624800/how-to-dynamically-set-query-selector-attributes
+- https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click
+
+YouTube Inspiration
+
+- https://www.youtube.com/watch?v=riDzcEQbX6k&t=984s
+- https://www.youtube.com/watch?v=pQr4O1OITJo
+- https://www.youtube.com/watch?v=LQGTb112N_c
+- https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3558s
+
+My Code Institute mentor Malia Havlicek, for helping me achieve the best result possible within my project's scope and helping me progress and solve the hardest bugs I've encountered so far.
+
+And finally Code Institute for inspiration regarding project ideas.
