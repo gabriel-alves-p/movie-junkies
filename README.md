@@ -8,7 +8,7 @@ Gabriel Alves
 
 ## Project Overview
 
-This website was developed to break the mold of the movie nights with your friends and family, when a little competition can't hurt. It was created to be fun, intuitive, easy to play and, most importantly, to decide who's the 'know-it-all' in the room. The categories range in difficulty and are suitable for families of all sizes and ages.
+This website was developed to break the mold of movie nights with your friends and family when a little competition can't hurt. It was created to be fun, intuitive, easy to play, and, most importantly, to decide who's the 'know-it-all' in the room. The categories range in difficulty and are suitable for families of all sizes and ages.
 
 
 - You can view my deployed website [here](https://gabriel-alves-p.github.io/movie-junkies/)
@@ -47,33 +47,33 @@ This website was developed to break the mold of the movie nights with your frien
 
 ### Project Goals
 
-At the early stages of planning for the website, research was made regarding age gaps between people who partake in quizzes in the UK. It was found that it was largely above 18 years of age for UK, so after refining my research to exclude pub quizzes, the research came out with an average that ranged between 14 and 45 years old.
+At the early stages of planning for the website, research was made regarding age gaps between people who partake in quizzes in the UK. It was found that it was largely above 18 years of age for the UK, so after refining my research to exclude pub quizzes, the research came out with an average that ranged between 14 and 45 years old.
 
-The website was largely designed to be appealing to young teenagers and adults in accordance with the research made. The questions and answers include both older films and new releases to match the wide range of ages which will be playing the quiz.
+The website was largely designed to be appealing to young teenagers and adults following the research made. The questions and answers include both older films and new releases to match the wide range of ages who will be playing the quiz.
 
-The website hopes to provide an extra layer of fun and entertainment to movie nights, either as an a pre-movie ice breaker or even afterwards to see who knows the most.
+The website hopes to provide an extra layer of fun and entertainment to movie nights, either as a pre-movie ice breaker or even afterward to see who knows the most.
 
 ### Design Choices
 
 #### Strategy Plane
 
-- The basics of the website are that it is, at its core, a fun, easy-to-play and intuitive quiz for teenagers and adults.
+- The basics of the website are that it is, at its core, a fun, easy-to-play, and intuitive quiz for teenagers and adults.
 
 #### Scope / Structure / Skeleton Planes
 
 - The website would contain a very minimalistic landing page, with a simple logo at the top, instructions on how to play the quiz to follow, and finally the four categories of questions for the user to choose from.
 
-- The second page (the quiz running page) would follow on to the same minimalistic idea of the first page, it would contain a question number, a score tracker, the quiz question, the four answer options for the user to click on and a 'return home' button.
+- The second page (the quiz running page) would follow on to the same minimalistic idea of the first page, it would contain a question number, a score tracker, the quiz question, the four answer options for the user to click on, and a 'return home' button.
 
-- The last page (the score page) would simply have a your score, an fun image to match your score (whether a low score, a medium score or a hig score), a message to match your performance and a button to 'return home'.
+- The last page (the score page) would simply have your score, a fun-looking image to match your score (whether a low score, a medium score, or a high score), a message to match your performance, and a button to 'return home'.
 
-- Each of the steps taken in the skeleton plane planning were done so as to only ever give a maximum of 4 clickable options on the screen for the user. It was done so that the website can only ever be intuitive and easy to navigate.
+- Each of the steps taken in the skeleton plane planning were done to only ever give a maximum of 4 clickable options on the screen for the user. It was done so that the website can only ever be intuitive and easy to navigate.
 
 #### Surface Plane
 
 ##### Colors
 
-The colors of the website were chosen to resemble an arcade's carpet. An iconic colorway of the 1980's. Although not all users will understand the theme or get the same feeling from the colors, they are still easy on the eyes and look the part on the quiz.
+The colors of the website were chosen to resemble an arcade's carpet. An iconic colorway of the 1980s. Although not all users will understand the theme or get the same feeling from the colors, they are still easy on the eyes and look the part on the quiz.
 
 ![Coolors palette](documentation/coolors-screenshot.jpeg)
 
@@ -89,7 +89,7 @@ Font style is called "Righteous" and it was chosen with the help of [Google Font
 
 ##### Images
 
-The images used on the website were chosen solely for entertainment purpose and to match the arcade feel of the website.
+The images used on the website were chosen solely for entertainment purposes and to match the arcade feel of the website.
 
 ![Popcorn footer](documentation/popcorn-screenshot.jpeg)
 
@@ -115,7 +115,7 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 
 #### Implemented Features
 
-- On the landing page I have implemented a background audio that can be switched on and off by the user upon clickin on it.
+- On the landing page I have implemented a background audio that can be switched on and off by the user upon clicking on it.
 ![Audio button](documentation/audio.jpeg)
 
 
@@ -135,7 +135,7 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 ![Return button](documentation/return.jpeg)
 
 
-- Score page is kept minimalistic with two lines of text informing the user of their score, an image feature that matches the user's score and a button to return to the home page.
+- Score page is kept minimalistic with two lines of text informing the user of their score, an image feature that matches the user's score, and a button to return to the home page.
 ![Score page](documentation/score.jpeg)
 
 
@@ -145,9 +145,9 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 
 #### Future Features
 
-- In the future I would like to implement two new categories for the games. These would be "Picture" and "Audio" based categories, which would use images and audios rather than text for the questions.
+- In the future, I would like to implement two new categories for the games. These would be "Picture" and "Audio" based categories, which would use images and audios rather than text for the questions.
 
-- Another feature I would like to implement to the website in the future are sound effects that are triggered when the user clicks on a correct or an incorrect answer.
+- Another feature I would like to implement to the website in the future is sound effects that are triggered when the user clicks on a correct or an incorrect answer.
 
 - Lastly, I would like to implement a high-score board to the website, which users could then upload their best results up to.
 
@@ -165,7 +165,7 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 ![JavaScript Testing](documentation/jshint1.jpeg)
 ![JavaScript Testing](documentation/jshint2.jpeg)
 
-### Cross Browser and Cross Device Testing
+### Cross-Browser and Cross-Device Testing
 
 | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
 |-------------------------------|-------------|------------|---------------|
@@ -207,7 +207,7 @@ You can view my defect tracking document [here](https://docs.google.com/spreadsh
 
 1. Go to the repository created on GitHub.
 2. Click on 'Settings'.
-3. Scroll down and click on 'Pages' on the left hand side menu.
+3. Scroll down and click on 'Pages' on the left-hand side menu.
 4. Select the 'Branch' 'master' and click on 'Save'.
 5. Allow GitHub a few minutes to deploy the website and then refresh the page.
 6. Website deployed.
