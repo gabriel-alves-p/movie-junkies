@@ -14,7 +14,34 @@ This website was developed to break the mold of the movie nights with your frien
 - You can view my deployed website [here](https://gabriel-alves-p.github.io/movie-junkies/)
 
 ## Table of Contents
-Generate after readme is complete for UX and below
+
+- [UX](#ux)
+  * [Project Goals](#project-goals)
+  * [Design Choices](#design-choices)
+    + [Strategy Plane](#strategy-plane)
+    + [Scope / Structure / Skeleton Planes](#scope---structure---skeleton-planes)
+    + [Surface Plane](#surface-plane)
+      - [Colors](#colors)
+      - [Typography](#typography)
+      - [Images](#images)
+      - [Animations and Transitions](#animations-and-transitions)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Implemented Features](#implemented-features)
+    + [Future Features](#future-features)
+- [Testing](#testing)
+  * [Validation Testing](#validation-testing)
+  * [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+  * [Manual Testing](#manual-testing)
+  * [Defect Tracking](#defect-tracking)
+  * [Defects of Note](#defects-of-note)
+  * [Outstanding Defects](#outstanding-defects)
+- [Lighthouse Audits](#lighthouse-audits)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 ## UX
 
@@ -228,4 +255,4 @@ YouTube Inspiration
 
 My Code Institute mentor Malia Havlicek, for helping me achieve the best result possible within my project's scope and helping me progress and solve the hardest bugs I've encountered so far.
 
-And finally Code Institute for inspiration regarding project ideas.
+And finally Code Institute for inspiration regarding project ideas and content for referring back to whenever needed.
