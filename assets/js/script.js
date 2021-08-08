@@ -9,7 +9,7 @@ let questionCounter = 0;
 let acceptingAnswers = true;
 let score = 0;
 let questions = [];
-let incrementScore = function(num) {
+let incrementScore = function (num) {
     score += num;
     scoreText.innerText = score;
 };
@@ -45,10 +45,11 @@ function runGame(type) {
  * randomizes questions
  */
 function setNextQuestion() {
-    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         game.classList.add('hide');
         final.classList.remove('hide');
+        setFinalScore();
     }
     questionCounter++;
     headerText.innerText = `
@@ -57,11 +58,11 @@ function setNextQuestion() {
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
-    options.forEach(function(option) {
+    options.forEach(function (option) {
         const number = option.dataset.number;
         option.innerText = currentQuestion['option' + number];
     });
-  
+
     availableQuestions.splice(questionsIndex, 1);
     acceptingAnswers = true;
 }
@@ -71,9 +72,9 @@ function setNextQuestion() {
  * increments score
  * sets next question
  */
-options.forEach(function(option) {
-    option.addEventListener('click', function(e) {
-        if(!acceptingAnswers) return;
+options.forEach(function (option) {
+    option.addEventListener('click', function (e) {
+        if (!acceptingAnswers) return;
         acceptingAnswers = false;
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset.number;
@@ -92,19 +93,32 @@ options.forEach(function(option) {
             setTimeout(function () {
                 correctDiv.classList.remove('correct');
             }, 1000);
-         
-         }
-         
-        
-        setTimeout(function() {
+
+        }
+
+
+        setTimeout(function () {
             selectedOption.parentElement.classList.remove(classToApply);
             setNextQuestion();
         }, 1000);
     });
 });
 
-function refreshPage(){
-    window.location.reload();
+function refreshPage() {
+    let containers = document.querySelectorAll('.game-container');
+    [].forEach.call(containers, function (container) {
+        // hide all parts of the game
+        container.classList.add('hide');
+    });
+
+    rules.classList.remove('hide');
+    let availableQuestions = [];
+    let currentQuestion = {};
+    let questionCounter = 0;
+    let acceptingAnswers = true;
+    let score = 0;
+    let questions = [];
+    scoreText.innerText = score;
 }
 
 /**
@@ -112,39 +126,41 @@ function refreshPage(){
  * shows respective image
  * shows replay button
  */
-finalScore.innerText = `You scored ${mostRecentScore} out of 10`;
 
-if (mostRecentScore <= 5) {
-    lowScoreImg.classList.remove('hide');
-    endMessage.innerText = `It's time to renew that Netflix subscription...`;
-} else if (mostRecentScore <= 7) {
-    mediumScoreImg.classList.remove('hide');
-    endMessage.innerText = `Hmmm we'll let that slide...`;
-} else if (mostRecentScore >= 8) {
-    highScoreImg.classList.remove('hide');
-    endMessage.innerText = `Congratulations! You're officially a movie junkie!`;
+function setFinalScore() {
+    finalScore.innerText = `You scored ${score} out of 10`;
+
+    if (score <= 5) {
+        lowScoreImg.classList.remove('hide');
+        endMessage.innerText = `It's time to renew that Netflix subscription...`;
+    } else if (score <= 7) {
+        mediumScoreImg.classList.remove('hide');
+        endMessage.innerText = `Hmmm we'll let that slide...`;
+    } else if (score >= 8) {
+        highScoreImg.classList.remove('hide');
+        endMessage.innerText = `Congratulations! You're officially a movie junkie!`;
+    }
 }
-
 /**
-* Music file
-*/
+ * Music file
+ */
 let bgmusic = document.getElementById('bgMusic');
 bgmusic.volume = 0.5;
 bgmusic.loop = true;
 let soundOn = false;
 
 /**
-* Toggle on and off background music
-*/
+ * Toggle on and off background music
+ */
 function musicControl() {
-   soundOn =! soundOn;
-   if (soundOn) {
-       bgmusic.play();
-       document.getElementById("music-on").classList.add('hide');
-       document.getElementById("music-off").classList.remove('hide');
-   } else {
-       bgmusic.pause();
-       document.getElementById("music-off").classList.add('hide');
-       document.getElementById("music-on").classList.remove('hide');
-   }
+    soundOn = !soundOn;
+    if (soundOn) {
+        bgmusic.play();
+        document.getElementById("music-on").classList.add('hide');
+        document.getElementById("music-off").classList.remove('hide');
+    } else {
+        bgmusic.pause();
+        document.getElementById("music-off").classList.add('hide');
+        document.getElementById("music-on").classList.remove('hide');
+    }
 }

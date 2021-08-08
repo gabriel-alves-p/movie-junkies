@@ -194,7 +194,7 @@ You can view my defect tracking document [here](https://docs.google.com/spreadsh
 
 - 'Hide' or 'show' images that match the user's score at the end of the quiz. This was solved by using 'if' and 'else if' statements with the help of revisiting Code Institute's content.
 
-- Get an accurate score at the end of the quiz. Not solved as of yet.
+- Get an accurate score at the end of the quiz. This bug was solved by adding a function that is called when the website has no more questions to display.
 
 ### Outstanding Defects
 
