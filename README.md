@@ -139,21 +139,19 @@ Wireframes for this project can be found [here](https://drive.google.com/file/d/
 ![JavaScript Testing](documentation/jshint2.jpeg)
 
 ### Cross Browser and Cross Device Testing
-Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
 | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
 |-------------------------------|-------------|------------|---------------|
-| real phone: motog6            | chrome      | android    | XS 360 x 640  |
-| browser stack: iPhone5s       | safari      | iOs        | XS 320 x 568  |
-| dev tools emulator: pixel 2   | firefox     | android    | SM 411 x 731  |
-| browserstack: iPhone 10x      | Chrome      | iOs        | SM 375 x 812  |
-| browserstack: nexus 7 - vert  | Chrome      | android    | M 600 x 960   |
-| real tablet: ipad mini - vert | safari      | iOs        | M 768 x 1024  |
-| browserstack: nexus 7 - horiz | firefox     | android    | LG 960 x 600  |
-| chrome emulator: ipad - horiz | safari      | iOs        | LG 1024 x 768 |
-| browserstack                  | Chrome      | windows    | XL 1920 x 946 |
-| real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-| browserstack                  | IE Edge 88  | windows 10 | XL 1920 x 964 |
+| Real phone: iPhone 12 - horiz | Safari      | iOS        | S 844 x 390   |
+| Real phone: iPhone XS Max     | Safari      | iOs        | S 425 x 900   |
+| Dev tools emulator: Pixel 2   | Chrome      | Windows    | S 411 x 731   |
+| Dev tools emulator: iPhone X  | Firefox     | iOS        | S 375 x 812   |
+| Dev tools emulator: Nexus 7   | Chrome      | Windows    | M 600 x 960   |
+| Real tablet: iPad             | Safari      | iOS        | M 768 x 1024  |
+| Real tablet: iPad - horiz     | Safari      | iOS        | M 768 x 1024  |
+| Dev tools emulator: iPad Pro  | Chrome      | Windows    | L 1024 x 1366 |
+| Real computer: MacBook Pro    | Firefox     | Big Sur    | XL 1752 x 960 |
+| Real computer: MacBook Air    | Safari      | Big Sur    | XL 1240 x 768 |
 
 ### Manual Testing
 
