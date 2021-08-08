@@ -162,11 +162,14 @@ You can view my manual testing document [here](https://docs.google.com/spreadshe
 You can view my defect tracking document [here](https://docs.google.com/spreadsheets/d/1TCmLOFkqmdD40cWfyRlDiH3qIxzpVGPBso8NyfzImAM/edit?usp=sharing).
 
 ### Defects of Note
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
 
+- Highlighting correct answer when an incorrect answer is chosen by the user. This bug was fixed by adding IDs to the answer options and using JavaScript to create a query that temporarily adds the 'correct' class to the correct answer before setting the next answer.
+
+- 'Hide' or 'show' images that match the user's score at the end of the quiz. This was solved by using 'if' and 'else if' statements with the help of revisiting Code Institute's content.
+
+- Get an accurate score at the end of the quiz. Not solved as of yet.
 
 ### Outstanding Defects
-It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and explain why you chose not to resolve it.
 
 ## Lighthouse Audits
 
@@ -175,17 +178,18 @@ It's ok to not resolve all the defects you found. If you know of something that 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+1. Go to the repository created on GitHub.
+2. Click on 'Settings'.
+3. Scroll down and click on 'Pages' on the left hand side menu.
+4. Select the 'Branch' 'master' and click on 'Save'.
+5. Allow GitHub a few minutes to deploy the website and then refresh the page.
+6. Website deployed.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any.
+![Deployment 1](documentation/deployment1.jpeg)
 
-Remember to use proper markdown for commands and enumerated steps.
+![Deployment 2](documentation/deployment2.jpeg)
 
-
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
-
-
-Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
+![Deployment 3](documentation/deployment3.jpeg)
 
 ## Credits
 

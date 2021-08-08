@@ -136,13 +136,13 @@ let soundOn = false;
 /**
 * Toggle on and off background music
 */
-function musicControl(){
-   soundOn =!soundOn;
-   if(soundOn){
+function musicControl() {
+   soundOn =! soundOn;
+   if (soundOn) {
        bgmusic.play();
        document.getElementById("music-on").classList.add('hide');
        document.getElementById("music-off").classList.remove('hide');
-   }else {
+   } else {
        bgmusic.pause();
        document.getElementById("music-off").classList.add('hide');
        document.getElementById("music-on").classList.remove('hide');
