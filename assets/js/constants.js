@@ -112,7 +112,7 @@ const questions_trivia = [
         question: "In the Wizard of Oz's snowy poppy field scene, what is the artificial snow made of?",
         option1: "Styrofoam",
         option2: "Sodium polyacrylate",
-        option3: "Bicarbonate of soda mixed with corn flour",
+        option3: "Bicarbonate of soda mixed with cornflour",
         option4: "Asbestos",
         correct: 4,
     },
@@ -121,7 +121,7 @@ const questions_trivia = [
         option1: "A big tech company's code",
         option2: "Symbols scanned from a sushi cookbook",
         option3: "Emojis",
-        option4: "Code written by the script writers",
+        option4: "Code written by the scriptwriters",
         correct: 2,
     },
     {
@@ -134,8 +134,8 @@ const questions_trivia = [
     },
     {
         question: "In Star Trek, what sound effect was used to accompany the automatic doors opening on the U.S.S Enterprise? ",
-        option1: "An air powered train toilet door",
-        option2: "A silicon implant bitten on",
+        option1: "An air-powered train toilet door",
+        option2: "A bitten silicon implant",
         option3: "A squeaking mouse",
         option4: "A rubber sole dragged across the floor",
         correct: 1,
@@ -173,7 +173,7 @@ const questions_trivia = [
         correct: 2,
     },
     {
-        question: "What recording was used to immitate Jurassic Park's Raptors?",
+        question: "What recording was used to imitate Jurassic Park's Raptors?",
         option1: "Foxes mating",
         option2: "Tortoises mating",
         option3: "Eagles mating",
